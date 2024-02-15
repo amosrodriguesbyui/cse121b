@@ -157,39 +157,6 @@ dd {
     font-size: smaller;
 }
 
-/* Adicione estilos para o elemento #movie-details, se necessário */
-#movie-details {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-    grid-gap: .5rem;
-    align-items: center;
-    margin-bottom: 3rem;
-  }
-  
-  #movie-details article {
-    height: 250px;
-    margin: .5rem;
-    border: 1px solid rgba(0, 0, 0, .1);
-    padding: 1rem;
-    background-color: #eee;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  #movie-details h3 {
-    color: navy;
-    font-size: smaller;
-  }
-  
-  #movie-details img {
-    width: 250px;
-    height: auto;
-    box-shadow: 0 0 30px #777;
-    margin: .5rem;
-  }
-
 footer {
     background-color: #444;
     color: white;
